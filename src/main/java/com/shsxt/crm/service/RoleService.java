@@ -15,4 +15,9 @@ public class RoleService {
     public List<Map> queryAllRoles(){
         return roleMapper.queryAllRoles();
     }
+
+
+    public static void main(String[] args) {
+    
+    }
 }
