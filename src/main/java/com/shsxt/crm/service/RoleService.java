@@ -18,6 +18,6 @@ public class RoleService {
 
 
     public static void main(String[] args) {
-    
+
     }
 }

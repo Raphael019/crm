@@ -19,8 +19,7 @@ public class CookieUtil {
 	 * @param domain
 	 * @param response
 	 */
-	public static void setCookie(String key, String value, String domain,
-			HttpServletResponse response) {
+	public static void setCookie(String key, String value, String domain, HttpServletResponse response) {
 
 		try {
 			value = URLEncoder.encode(value, "UTF-8");
